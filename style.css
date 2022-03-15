@@ -381,11 +381,7 @@ background-color: #2e323f;
 
     }
 
-    .selfstudy {
    
-        height: 160px;
-        
-    }
     
   
     
@@ -686,10 +682,7 @@ background-color: #2e323f;
         gap: 0;
     }
 
-    .selfstudy {
-
-        margin-top: -1em;
-    }
+    
 
     .fftext {
         max-width: 500px;
@@ -703,11 +696,7 @@ background-color: #2e323f;
         color: burlywood;
         padding: 1rem 0;
     }
-    .selfstudy {
   
-        height: 160px;
-        
-    }
     
 }
 
@@ -754,7 +743,7 @@ background-color: #2e323f;
 }
 .selfstudy {
    
-    margin-top: -1em;
+
 }
 .fftext {
     max-width: 500px;
