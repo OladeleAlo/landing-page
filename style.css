@@ -319,6 +319,7 @@ background-color: #2e323f;
     }
     .mini-title {
         color: white;
+        white-space: nowrap;
         
     }
     .textter {
@@ -360,26 +361,28 @@ background-color: #2e323f;
     }
     .threeullist {
       
-        width: 100%;
+        width: 500px;
+    
+        margin-right: 5em;
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 700px;
-        margin-left: 3em;
+        
+        
+     
        
    
       
     }
-    .all {
-     
+    .all {     
         list-style: none;
         text-decoration: none;
         margin: 0;
-        padding: 0;
-        gap: 0;
+        padding-right: 1em;
     
 
     }
+   
 
    
     
@@ -569,6 +572,7 @@ background-color: #2e323f;
 
 .mini-title {
     color: white;
+    white-space: nowrap;
     
 }
 .textter {
@@ -577,8 +581,9 @@ background-color: #2e323f;
 
 @media (max-width: 1185px){
     .main {
-        
+  
        width: 68%;
+       margin-left: 1em;
       
        
         
@@ -587,7 +592,9 @@ background-color: #2e323f;
         
         display: flex;
         flex-direction: column;
-      
+        justify-content: center;
+        align-items: center;
+        width: 100%;      
        
     }
     
@@ -602,12 +609,25 @@ background-color: #2e323f;
     }
 
     .side {
+   
+    display: flex;
+    width: 100%;
+    margin-right: 4em;
+    justify-content: space-between;
+    gap: 0.7em;
+
     
-    display: flex;
-    width: 68%;
-    margin-left: 8em;
-    display: flex;
-    gap: 1em;
+    }
+    .topMain {
+    
+       padding-left: 5em;
+        display: flex;
+        justify-content: center;
+        
+        padding-right: 4em;
+        width: 100%;
+        
+    
     
     }
 
@@ -625,6 +645,7 @@ background-color: #2e323f;
 
     .mini-title {
         color: white;
+        white-space: nowrap;
         
     }
     .textter {
@@ -666,10 +687,9 @@ background-color: #2e323f;
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 700px;
-        margin-left: 5em;
         width: 100%;
-        flex-wrap: wrap;
+        margin-left: 5em;
+        
       
     }
     .all {
@@ -741,10 +761,7 @@ background-color: #2e323f;
     padding: 0;
     margin: 0;
 }
-.selfstudy {
-   
 
-}
 .fftext {
     max-width: 500px;
     color: #6f737f;
@@ -759,7 +776,10 @@ background-color: #2e323f;
     justify-content: center;
     align-items: center;
     max-width: 900px;
-    width: 70%;
+    width: 80%;
+ 
+    
+  
   
 }
 
@@ -768,6 +788,6 @@ background-color: #2e323f;
     list-style: none;
     text-decoration: none;
     white-space: nowrap;
-    margin-right: 1rem;
-    padding: 0;
+    margin-right: 0.7rem;
+    width: 100%;
 }
